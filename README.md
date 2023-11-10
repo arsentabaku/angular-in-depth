@@ -46,7 +46,7 @@
 |36| [What is HttpClient and its benefits?](#what-is-httpclient-and-its-benefits)|
 |37| [Explain on how to use HttpClient with an example?](#explain-on-how-to-use-httpclient-with-an-example)|
 |38| [How can you read full response?](#how-can-you-read-full-response)|
-|39| [How do you perform Error handling?](#how-do-you-perform-error-handling)|
+|39| <!-- [How do you perform Error handling?](#how-do-you-perform-error-handling)-->
 |40| [What is RxJS?](#what-is-rxjs)|
 |41| [What is subscribing?](#what-is-subscribing)|
 |42| [What is an observable?](#what-is-an-observable)|
@@ -54,19 +54,19 @@
 |44| [What is the difference between promise and observable?](#what-is-the-difference-between-promise-and-observable)|
 |45| [What is multicasting?](#what-is-multicasting)|
 |46| [How do you perform error handling in observables?](#how-do-you-perform-error-handling-in-observables)|
-|47| [What is the shorthand notation for subscribe method?](#what-is-the-shorthand-notation-for-subscribe-method)|
-|48| [What are the utility functions provided by RxJS?](#what-are-the-utility-functions-provided-by-rxjs)|
-|49| [What are observable creation functions?](#what-are-observable-creation-functions)|
+|47| <!-- [What is the shorthand notation for subscribe method?](#what-is-the-shorthand-notation-for-subscribe-method)-->
+|48| <!-- [What are the utility functions provided by RxJS?](#what-are-the-utility-functions-provided-by-rxjs)-->
+|49| <!-- [What are observable creation functions?](#what-are-observable-creation-functions)-->
 |50| [What will happen if you do not supply handler for the observer?](#what-will-happen-if-you-do-not-supply-handler-for-the-observer)|
-|51| [What are Angular elements?](#what-are-angular-elements)|
-|52| [What is the browser support of Angular Elements?](#what-is-the-browser-support-of-angular-elements)|
-|53| [What are custom elements?](#what-are-custom-elements)|
-|54| [Do I need to bootstrap custom elements?](#do-i-need-to-bootstrap-custom-elements)|
-|55| [Explain how custom elements works internally?](#explain-how-custom-elements-works-internally)|
-|56| [How to transfer components to custom elements?](#how-to-transfer-components-to-custom-elements)|
-|57| [What are the mapping rules between Angular component and custom element?](#what-are-the-mapping-rules-between-angular-component-and-custom-element)|
-|58| [How do you define typings for custom elements?](#how-do-you-define-typings-for-custom-elements)|
-|59| [What are dynamic components?](#what-are-dynamic-components)|
+|51| <!-- [What are Angular elements?](#what-are-angular-elements)-->
+|52| <!-- [What is the browser support of Angular Elements?](#what-is-the-browser-support-of-angular-elements)-->
+|53| <!-- [What are custom elements?](#what-are-custom-elements)-->
+|54| <!-- [Do I need to bootstrap custom elements?](#do-i-need-to-bootstrap-custom-elements)-->
+|55| <!-- [Explain how custom elements works internally?](#explain-how-custom-elements-works-internally)-->
+|56| <!-- [How to transfer components to custom elements?](#how-to-transfer-components-to-custom-elements)-->
+|57| <!-- [What are the mapping rules between Angular component and custom element?](#what-are-the-mapping-rules-between-angular-component-and-custom-element)-->
+|58| <!-- [How do you define typings for custom elements?](#how-do-you-define-typings-for-custom-elements)-->
+|59| <!-- [What are dynamic components?](#what-are-dynamic-components)-->
 |60| [What are the various kinds of directives?](#what-are-the-various-kinds-of-directives)|
 |61| [How do you create directives using CLI?](#how-do-you-create-directives-using-cli)|
 |62| [Give an example for attribute directives?](#give-an-example-for-attribute-directives)|
@@ -89,18 +89,18 @@
 |79| [Why do we need compilation process?](#why-do-we-need-compilation-process)|
 |80| [What are the advantages with AOT?](#what-are-the-advantages-with-aot)|
 |81| [What are the ways to control AOT compilation?](#what-are-the-ways-to-control-aot-compilation)|
-|82| [What are the restrictions of metadata?](#what-are-the-restrictions-of-metadata)|
+|82| <!-- [What are the restrictions of metadata?](#what-are-the-restrictions-of-metadata)-->
 |83| [What are the three phases of AOT?](#what-are-the-three-phases-of-aot)|
-|84| [Can I use arrow functions in AOT?](#can-i-use-arrow-functions-in-aot)|
-|85| [What is the purpose of metadata json files?](#what-is-the-purpose-of-metadata-json-files)|
-|86| [Can I use any javascript feature for expression syntax in AOT?](#can-i-use-any-javascript-feature-for-expression-syntax-in-aot)|
-|87| [What is folding?](#what-is-folding)|
-|88| [What are macros?](#what-are-macros)|
-|89| [Give an example of few metadata errors?](#give-an-example-of-few-metadata-errors)|
-|90| [What is metadata rewriting?](#what-is-metadata-rewriting)|
-|91| [How do you provide configuration inheritance?](#how-do-you-provide-configuration-inheritance)|
-|92| [How do you specify angular template compiler options?](#how-do-you-specify-angular-template-compiler-options)|
-|93| [How do you enable binding expression validation?](#how-do-you-enable-binding-expression-validation)|
+|84| <!-- [Can I use arrow functions in AOT?](#can-i-use-arrow-functions-in-aot)-->
+|85| <!-- [What is the purpose of metadata json files?](#what-is-the-purpose-of-metadata-json-files)-->
+|86| <!-- [Can I use any javascript feature for expression syntax in AOT?](#can-i-use-any-javascript-feature-for-expression-syntax-in-aot)-->
+|87| <!-- [What is folding?](#what-is-folding)-->
+|88| <!-- [What are macros?](#what-are-macros)-->
+|89| <!-- [Give an example of few metadata errors?](#give-an-example-of-few-metadata-errors)-->
+|90| <!-- [What is metadata rewriting?](#what-is-metadata-rewriting)-->
+|91| <!-- [How do you provide configuration inheritance?](#how-do-you-provide-configuration-inheritance)-->
+|92| <!-- [How do you specify angular template compiler options?](#how-do-you-specify-angular-template-compiler-options)-->
+|93| <!-- [How do you enable binding expression validation?](#how-do-you-enable-binding-expression-validation)-->
 |94| [What is the purpose of any type cast function?](#what-is-the-purpose-of-any-type-cast-function)|
 |95| [What is Non null type assertion operator?](#what-is-non-null-type-assertion-operator)|
 |96| [What is type narrowing?](#what-is-type-narrowing)|
