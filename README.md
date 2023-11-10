@@ -27,20 +27,20 @@
 |17| [What is dependency injection in Angular?](#what-is-dependency-injection-in-angular)|
 |18| [How is Dependency Hierarchy formed?](#how-is-dependency-hierarchy-formed)|
 |19| [What is the purpose of async pipe?](#what-is-the-purpose-of-async-pipe)|
-|20| <!--[What is the option to choose between inline and external template file?](#what-is-the-option-to-choose-between-inline-and-external-template-file)|-->
+|20| <!-- [What is the option to choose between inline and external template file?](#what-is-the-option-to-choose-between-inline-and-external-template-file) -->
 |21| [What is the purpose of *ngFor directive?](#what-is-the-purpose-of-ngfor-directive)|
 |22| [What is the purpose of ngIf directive?](#what-is-the-purpose-of-ngif-directive)|
 |23| [What happens if you use script tag inside template?](#what-happens-if-you-use-script-tag-inside-template)|
 |24| [What is interpolation?](#what-is-interpolation)|
-|25| [What are template expressions?](#what-are-template-expressions)|
-|26| [What are template statements?](#what-are-template-statements)|
+|25| <!-- [What are template expressions?](#what-are-template-expressions) -->
+|26| <!-- [What are template statements?](#what-are-template-statements) -->
 |27| [How do you categorize data binding types?](#how-do-you-categorize-data-binding-types)|
 |28| [What are pipes?](#what-are-pipes)|
 |29| [What is a parameterized pipe?](#what-is-a-parameterized-pipe)|
 |30| [How do you chain pipes?](#how-do-you-chain-pipes)|
 |31| [What is a custom pipe?](#what-is-a-custom-pipe)|
 |32| [Give an example of custom pipe?](#give-an-example-of-custom-pipe)|
-|33| [What is the difference between pure and impure pipe?](#what-is-the-difference-between-pure-and-impure-pipe)|
+|33| <!-- [What is the difference between pure and impure pipe?](#what-is-the-difference-between-pure-and-impure-pipe)-->
 |34| [What is a bootstrapping module?](#what-is-a-bootstrapping-module)|
 |35| [What are observables?](#what-are-observables)|
 |36| [What is HttpClient and its benefits?](#what-is-httpclient-and-its-benefits)|
