@@ -113,10 +113,10 @@
 |151| [What are the ways to trigger change detection in Angular?](#what-are-the-ways-to-trigger-change-detection-in-angular)|
 |152| [What are the differences of various versions of Angular?](#what-are-the-differences-of-various-versions-of-angular)|
 |153| [What are the security principles in angular?](#what-are-the-security-principles-in-angular)|
-|154| [What is the reason to deprecate Web Tracing Framework?](#what-is-the-reason-to-deprecate-web-tracing-framework)|
-|155| [What is the reason to deprecate web worker packages?](#what-is-the-reason-to-deprecate-web-worker-packages)|
+|154| <!--[What is the reason to deprecate Web Tracing Framework?](#what-is-the-reason-to-deprecate-web-tracing-framework)-->
+|155| <!--[What is the reason to deprecate web worker packages?](#what-is-the-reason-to-deprecate-web-worker-packages)-->
 |156| [How do you find angular CLI version?](#how-do-you-find-angular-cli-version)|
-|157| [What is the browser support for Angular?](#what-is-the-browser-support-for-angular)|
+|157| <!--[What is the browser support for Angular?](#what-is-the-browser-support-for-angular)-->
 |158| [What is schematic](#what-is-schematic)|
 |159| [What is rule in Schematics?](#what-is-rule-in-schematics)|
 |160| [What is Schematics CLI?](#what-is-schematics-cli)|
@@ -183,7 +183,7 @@
 |221| [What is Angular compiler?](#what-is-angular-compiler)|
 |222| [What is the role of ngModule metadata in compilation process?](#what-is-the-role-of-ngmodule-metadata-in-compilation-process)|
 |223| [How does angular finds components, directives and pipes?](#how-does-angular-finds-components-directives-and-pipes)|
-|224| [Give few examples for NgModules?](#give-few-examples-for-ngmodules)|
+|224| <!--[Give few examples for NgModules?](#give-few-examples-for-ngmodules)-->
 |225| [What are feature modules?](#what-are-feature-modules)|
 |226| [What are the imported modules in CLI generated feature modules?](#what-are-the-imported-modules-in-cli-generated-feature-modules)|
 |227| [What are the differences between ngmodule and javascript module?](#what-are-the-differences-between-ngmodule-and-javascript-module)|
@@ -199,7 +199,7 @@
 |237| [How does forRoot method helpful to avoid duplicate router instances?](#how-does-forroot-method-helpful-to-avoid-duplicate-router-instances)|
 |238| [What is a shared module?](#what-is-a-shared-module)|
 |239| [Can I share services using modules?](#can-i-share-services-using-modules)|
-|240| [How do you get current direction for locales??](#how-do-you-get-current-direction-for-locales)|
+|240| <!--[How do you get current direction for locales??](#how-do-you-get-current-direction-for-locales)-->
 |241| [What is ngcc?](#what-is-ngcc)|
 |242| [What classes should not be added to declarations?](#what-classes-should-not-be-added-to-declarations)|
 |243| [What is ngzone?](#what-is-ngzone)|
@@ -232,7 +232,7 @@
 |270| [What is host property in css?](#what-is-host-property-in-css)|
 |271| [How do you get the current route?](#how-do-you-get-the-current-route)|
 |272| [What is Component Test Harnesses?](#what-is-component-test-harnesses)|
-|273| [What is the benefit of Automatic Inlining of Fonts?](#what-is-the-benefit-of-automatic-inlining-of-fonts)|
+|273| <!--[What is the benefit of Automatic Inlining of Fonts?](#what-is-the-benefit-of-automatic-inlining-of-fonts)-->
 |274| [What is content projection?](#what-is-content-projection)|
 |275| [What is ng-content and its purpose?](#what-is-ng-content-and-its-purpose)|
 |276| [What is standalone component?](#what-is-standalone-component)|
