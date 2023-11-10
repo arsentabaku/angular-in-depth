@@ -4,34 +4,20 @@
 
 ---
 
-<p align="center">
-  <a href=https://zerotomastery.io/?utm_source=github&utm_medium=sponsor&utm_campaign=angular-interview-questions>
-    <img src=https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:70/https://www.filepicker.io/api/file/AKYtjj5SSGyJuyZrkAB2 alt="ZTM Logo" width="100" height="50">
-  </a>
-  <p align="center">
-    <ol>
-    <li>Take this <a href=https://links.zerotomastery.io/angular_sudheer>Angular course</a> to go from a complete Angular beginner to confidently building enterprise-level applications from scratch</li>
-    <li>Take this <a href=https://links.zerotomastery.io/mci_sudheer3>coding interview bootcamp</a> if you’re serious about getting hired and don’t have a CS degree</li>
-    </ol>
-  </p>
-</p>
-
----
-
 ### Table of Contents
 
 | No. | Questions |
 |---- | ---------
-|1 | ✅ [What is Angular Framework?](#what-is-angular-framework)|
-|2 | ✅ [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
-|3 | ✅ [What is TypeScript?](#what-is-typescript)|
-|4 | ✅ [Write a pictorial diagram of Angular architecture?](#write-a-pictorial-diagram-of-angular-architecture)|
-|5 | ✅ [What are the key components of Angular?](#what-are-the-key-components-of-angular)|
-|6 | ✅ [What are directives?](#what-are-directives)|
-|7 | ✅ [What are components?](#what-are-components)|
-|8 | ✅ [What are the differences between Component and Directive?](#what-are-the-differences-between-component-and-directive)|
-|9 | ✅ [What is a template?](#what-is-a-template)|
-|10| ✅ [What is a module?](#what-is-a-module)|
+|1 | [What is Angular Framework?](#what-is-angular-framework)|
+|2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
+|3 | [What is TypeScript?](#what-is-typescript)|
+|4 | [Write a pictorial diagram of Angular architecture?](#write-a-pictorial-diagram-of-angular-architecture)|
+|5 | [What are the key components of Angular?](#what-are-the-key-components-of-angular)|
+|6 | [What are directives?](#what-are-directives)|
+|7 | [What are components?](#what-are-components)|
+|8 | [What are the differences between Component and Directive?](#what-are-the-differences-between-component-and-directive)|
+|9 | [What is a template?](#what-is-a-template)|
+|10| [What is a module?](#what-is-a-module)|
 |11| [What are lifecycle hooks available?](#what-are-lifecycle-hooks-available)|
 |12| [What is a data binding?](#what-is-a-data-binding)|
 |13| [What is metadata?](#what-is-metadata)|
@@ -41,7 +27,7 @@
 |17| [What is dependency injection in Angular?](#what-is-dependency-injection-in-angular)|
 |18| [How is Dependency Hierarchy formed?](#how-is-dependency-hierarchy-formed)|
 |19| [What is the purpose of async pipe?](#what-is-the-purpose-of-async-pipe)|
-|20| [What is the option to choose between inline and external template file?](#what-is-the-option-to-choose-between-inline-and-external-template-file)|
+|20| // [What is the option to choose between inline and external template file?](#what-is-the-option-to-choose-between-inline-and-external-template-file)|
 |21| [What is the purpose of *ngFor directive?](#what-is-the-purpose-of-ngfor-directive)|
 |22| [What is the purpose of ngIf directive?](#what-is-the-purpose-of-ngif-directive)|
 |23| [What happens if you use script tag inside template?](#what-happens-if-you-use-script-tag-inside-template)|
