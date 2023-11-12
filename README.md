@@ -138,37 +138,24 @@
 |130| [What is router state?](#what-is-router-state)|
 |131| [What is the purpose of hidden property?](#what-is-the-purpose-of-hidden-property)|
 |132| [What is the difference between ngIf and hidden property?](#what-is-the-difference-between-ngif-and-hidden-property)|
-|203| [What is index property in ngFor directive?](#what-is-index-property-in-ngfor-directive)|
-|204| [What is the purpose of ngFor trackBy?](#what-is-the-purpose-of-ngfor-trackby)|
-|205| [What is the purpose of ngSwitch directive?](#what-is-the-purpose-of-ngswitch-directive)|
-|206| [Is it possible to do aliasing for inputs and outputs?](#is-it-possible-to-do-aliasing-for-inputs-and-outputs)|
-|207| [What is safe navigation operator?](#what-is-safe-navigation-operator)|
-|208| [Is any special configuration required for Angular9?](#is-any-special-configuration-required-for-angular9)|
-|209| [What are type safe TestBed API changes in Angular9?](#what-are-type-safe-testbed-api-changes-in-angular9)|
-|210| [Is mandatory to pass static flag for ViewChild?](#is-mandatory-to-pass-static-flag-for-viewchild)|
-|211| [What are the list of template expression operators?](#what-are-the-list-of-template-expression-operators)
-|212| [What is the precedence between pipe and ternary operators?](#what-is-the-precedence-between-pipe-and-ternary-operators)
-|213| [What is an entry component?](#what-is-an-entry-component)|
-|214| [What is a bootstrapped component?](#what-is-a-bootstrapped-component)|
-|215| [How do you manually bootstrap an application?](#how-do-you-manually-bootstrap-an-application)|
-|216| [Is it necessary for bootstrapped component to be entry component?](#is-it-necessary-for-bootstrapped-component-to-be-entry-component)|
-|217| [What is a routed entry component?](#what-is-a-routed-entry-component#)|
-|218| [Why is not necessary to use entryComponents array every time?](#why-is-not-necessary-to-use-entrycomponents-array-every-time)|
-|219| [Do I still need to use entryComponents array in Angular9?](do-i-still-need-to-use-entrycomponents-array-in-angular9#)|
-|220| [Is it all components generated in production build?](#is-it-all-components-generated-in-production-build)|
-|221| [What is Angular compiler?](#what-is-angular-compiler)|
-|222| [What is the role of ngModule metadata in compilation process?](#what-is-the-role-of-ngmodule-metadata-in-compilation-process)|
-|223| [How does angular finds components, directives and pipes?](#how-does-angular-finds-components-directives-and-pipes)|
-|225| [What are feature modules?](#what-are-feature-modules)|
-|226| [What are the imported modules in CLI generated feature modules?](#what-are-the-imported-modules-in-cli-generated-feature-modules)|
-|227| [What are the differences between ngmodule and javascript module?](#what-are-the-differences-between-ngmodule-and-javascript-module)|
-|228| [What are the possible errors with declarations?](#what-are-the-possible-errors-with-declarations)|
-|229| [What are the steps to use declaration elements?](#what-are-the-steps-to-use-declaration-elements)|
-|230| [What happens if browserModule used in feature module?](#what-happens-if-browsermodule-used-in-feature-module)|
-|231| [What are the types of feature modules?](#what-are-the-types-of-feature-modules)|
-|232| [What is a provider?](#what-is-a-provider)|
-|233| [What is the recommendation for provider scope?](#what-is-the-recommendation-for-provider-scope#)|
-|234| [How do you restrict provider scope to a module?](#how-do-you-restrict-provider-scope-to-a-module)|
+|133| [What is index property in ngFor directive?](#what-is-index-property-in-ngfor-directive)|
+|134| [What is the purpose of ngFor trackBy?](#what-is-the-purpose-of-ngfor-trackby)|
+|135| [What is the purpose of ngSwitch directive?](#what-is-the-purpose-of-ngswitch-directive)|
+|136| [Is it possible to do aliasing for inputs and outputs?](#is-it-possible-to-do-aliasing-for-inputs-and-outputs)|
+|137| [Is mandatory to pass static flag for ViewChild?](#is-mandatory-to-pass-static-flag-for-viewchild)|
+|138| [What is an entry component?](#what-is-an-entry-component)|
+|139| [What is a bootstrapped component?](#what-is-a-bootstrapped-component)|
+|140| [Is it all components generated in production build?](#is-it-all-components-generated-in-production-build)|
+|141| [What is Angular compiler?](#what-is-angular-compiler)|
+|142| [What is the role of ngModule metadata in compilation process?](#what-is-the-role-of-ngmodule-metadata-in-compilation-process)|
+|143| [How does angular finds components, directives and pipes?](#how-does-angular-finds-components-directives-and-pipes)|
+|144| [What are feature modules?](#what-are-feature-modules)|
+|145| [What are the imported modules in CLI generated feature modules?](#what-are-the-imported-modules-in-cli-generated-feature-modules)|
+|146| [What are the possible errors with declarations?](#what-are-the-possible-errors-with-declarations)|
+|147| [What happens if browserModule used in feature module?](#what-happens-if-browsermodule-used-in-feature-module)|
+|148| [What is a provider?](#what-is-a-provider)|
+|149| [What is the recommendation for provider scope?](#what-is-the-recommendation-for-provider-scope#)|
+|150| [How do you restrict provider scope to a module?](#how-do-you-restrict-provider-scope-to-a-module)|
 |235| [How do you provide a singleton service?](#how-do-you-provide-a-singleton-service)|
 |236| [What are the different ways to remove duplicate service registration?](#what-are-the-different-ways-to-remove-duplicate-service-registration)|
 |237| [How does forRoot method helpful to avoid duplicate router instances?](#how-does-forroot-method-helpful-to-avoid-duplicate-router-instances)|
@@ -2232,27 +2219,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-202. ### What is slice pipe?
-     The slice pipe is used to create a new Array or String containing a subset (slice) of the elements. The syntax looks like as below,
-     ```javascript
-     {{ value_expression | slice : start [ : end ] }}
-     ```
-     For example, you can provide 'hello' list based on a greeting array,
-     ```javascript
-     @Component({
-       selector: 'list-pipe',
-       template: `<ul>
-         <li *ngFor="let i of greeting | slice:0:5">{{i}}</li>
-       </ul>`
-     })
-     export class PipeListComponent {
-       greeting: string[] = ['h', 'e', 'l', 'l', 'o', 'm','o', 'r', 'n', 'i', 'n', 'g'];
-     }
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-203. ### What is index property in ngFor directive?
+133. ### What is index property in ngFor directive?
      The index property of the NgFor directive is used to return the zero-based index of the item in each iteration. You can capture the index in a template input variable and use it in the template.
 
      For example, you can capture the index in a variable named indexVar and displays it with the todo's name using ngFor directive as below.
@@ -2262,7 +2229,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-204. ### What is the purpose of ngFor trackBy?
+134. ### What is the purpose of ngFor trackBy?
      The main purpose of using *ngFor with trackBy option is performance optimization. Normally if you use NgFor with large data sets, a small change to one item by removing or adding an item, can trigger a cascade of DOM manipulations. In this case, Angular sees only a fresh list of new object references and to replace the old DOM elements with all new DOM elements. You can help Angular to track which items added or removed by providing a `trackBy` function which takes the index and the current item as arguments and needs to return the unique identifier for this item.
 
      For example, lets set trackBy to the trackByTodos() method
@@ -2278,7 +2245,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-205. ### What is the purpose of ngSwitch directive?
+135. ### What is the purpose of ngSwitch directive?
      **NgSwitch** directive is similar to JavaScript switch statement which displays one element from among several possible elements, based on a switch condition. In this case only the selected element placed into the DOM. It has been used along with `NgSwitch`, `NgSwitchCase` and `NgSwitchDefault` directives.
 
      For example, let's display the browser details based on selected browser using ngSwitch directive.
@@ -2294,7 +2261,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-206. ### Is it possible to do aliasing for inputs and outputs?
+136. ### Is it possible to do aliasing for inputs and outputs?
      Yes, it is possible to do aliasing for inputs and outputs in two ways.
      1. **Aliasing in metadata:** The inputs and outputs in the metadata aliased using a colon-delimited (:) string with the directive property name on the left and the public alias on the right. i.e. It will be in the format of propertyName:alias.
          ```javascript
@@ -2309,36 +2276,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-207. ### What is safe navigation operator?
-     The safe navigation operator(?)(or known as Elvis Operator) is used to guard against `null` and `undefined` values in property paths when you are not aware whether a path exists or not. i.e. It returns value of the object path if it exists, else it returns the null value.
-
-     For example, you can access nested properties of a user profile easily without null reference errors as below,
-     ```javascript
-     <p>The user firstName is: {{user?.fullName.firstName}}</p>
-     ```
-     Using this safe navigation operator, Angular framework stops evaluating the expression when it hits the first null value and renders the view without any errors.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-208. ### Is any special configuration required for Angular9?
-     You don't need any special configuration. In Angular9, the Ivy renderer is the default Angular compiler. Even though Ivy is available Angular8 itself, you had to configure it in tsconfig.json file as below,
-     ```javascript
-     "angularCompilerOptions": {    "enableIvy": true  }
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-209. ### What are type safe TestBed API changes in Angular9?
-     Angular 9 provides type safe changes in TestBed API changes by replacing the old get function with the new inject method. Because TestBed.get method is not type-safe. The usage would be as below,
-     ```javascript
-     TestBed.get(ChangeDetectorRef) // returns any. It is deprecated now.
-
-     TestBed.inject(ChangeDetectorRef) // returns ChangeDetectorRef
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-210. ### Is mandatory to pass static flag for ViewChild?
+137. ### Is mandatory to pass static flag for ViewChild?
      In Angular 8, the static flag is required for ViewChild. Whereas in Angular9, you no longer need to pass this property. Once you updated to Angular9 using `ng update`, the migration will remove { static: false } script everywhere.
      ```javascript
      @ViewChild(ChildDirective) child: ChildDirective; // Angular9 usage
@@ -2347,20 +2285,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-211. ### What are the list of template expression operators?
-     The Angular template expression language supports three special template expression operators.
-     1. Pipe operator
-     2. Safe navigation operator
-     3. Non-null assertion operator
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-212. ### What is the precedence between pipe and ternary operators?
-     The pipe operator has a higher precedence than the ternary operator (?:). For example, the expression `first ? second : third | fourth` is parsed as `first ? second : (third | fourth)`.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-213. ### What is an entry component?
+138. ### What is an entry component?
      An entry component is any component that Angular loads imperatively(i.e, not referencing it in the template) by type. Due to this behavior, they can’t be found by the Angular compiler during compilation. These components created dynamically with `ComponentFactoryResolver`.
 
      Basically, there are two main kinds of entry components which are following -
@@ -2368,7 +2293,7 @@
      2. A component you specify in a route
 
      **[⬆ Back to Top](#table-of-contents)**
-214. ### What is a bootstrapped component?
+139. ### What is a bootstrapped component?
      A bootstrapped component is an entry component that Angular loads into the DOM during the bootstrap process or application launch time. Generally, this bootstrapped or root component is named as `AppComponent` in your root module using `bootstrap` property as below.
      ```js
      @NgModule({
@@ -2387,76 +2312,28 @@
      ```
 
      **[⬆ Back to Top](#table-of-contents)**
-215. ### How do you manually bootstrap an application?
-     You can use `ngDoBootstrap` hook for a manual bootstrapping of the application instead of using bootstrap array in `@NgModule` annotation. This hook is part of `DoBootstap` interface.
-     ```js
-     interface DoBootstrap {
-       ngDoBootstrap(appRef: ApplicationRef): void
-     }
-     ```
-     The module needs to be implement the above interface to use the hook for bootstrapping.
-     ```js
-     class AppModule implements DoBootstrap {
-       ngDoBootstrap(appRef: ApplicationRef) {
-         appRef.bootstrap(AppComponent); // bootstrapped entry component need to be passed
-       }
-     }
-     ```
 
-     **[⬆ Back to Top](#table-of-contents)**
-
-216. ### Is it necessary for bootstrapped component to be entry component?
-     Yes, the bootstrapped component needs to be an entry component. This is because the bootstrapping process is an imperative process.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-217. ### What is a routed entry component?
-     The components referenced in router configuration are called as routed entry components. This routed entry component defined in a route definition as below,
-     ```js
-     const routes: Routes = [
-       {
-         path: '',
-         component: TodoListComponent // router entry component
-       }
-     ];
-     ```
-     Since router definition requires you to add the component in two places (router and entryComponents), these components are always entry components.
-
-     **Note:** The compilers are smart enough to recognize a router definition and automatically add the router component into `entryComponents`.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-218. ### Why is not necessary to use entryComponents array every time?
-     Most of the time, you don't need to explicity to set entry components in entryComponents array of ngModule decorator. Because angular adds components from both @NgModule.bootstrap and route definitions to entry components automatically.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-219. ### Do I still need to use entryComponents array in Angular9?
-     No. In previous angular releases, the entryComponents array of ngModule decorator is used to tell the compiler which components would be created and inserted dynamically in the view. In Angular9, this is not required anymore with Ivy.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-220. ### Is it all components generated in production build?
+140. ### Is it all components generated in production build?
      No, only the entry components and template components appears in production builds. If a component isn't an entry component and isn't found in a template, the tree shaker will throw it away. Due to this reason, make sure to add only true entry components to reduce the bundle size.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-221. ### What is Angular compiler?
+141. ### What is Angular compiler?
      The Angular compiler is used to convert the application code into JavaScript code. It reads the template markup, combines it with the corresponding component class code, and emits component factories which creates JavaScript representation of the component along with elements of @Component metadata.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-222. ### What is the role of ngModule metadata in compilation process?
+142. ### What is the role of ngModule metadata in compilation process?
      The `@NgModule` metadata is used to tell the Angular compiler what components to be compiled for this module and how to link this module with other modules.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-223. ### How does angular finds components, directives and pipes?
+143. ### How does angular finds components, directives and pipes?
      The Angular compiler finds a component or directive in a template when it can match the selector of that component or directive in that template. Whereas it finds a pipe if the pipe's name appears within the pipe syntax of the template HTML.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-225. ### What are feature modules?
+144. ### What are feature modules?
      Feature modules are NgModules, which are used for the purpose of organizing code. The feature module can be created with Angular CLI using the below command in the root directory,
      ```javascript
      ng generate module MyCustomFeature //
@@ -2479,59 +2356,28 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-226. ### What are the imported modules in CLI generated feature modules?
+145. ### What are the imported modules in CLI generated feature modules?
      In the CLI generated feature module, there are two JavaScript import statements at the top of the file
      1. **NgModule:** InOrder to use the `@NgModule` decorator
      2. **CommonModule:** It provides many common directives such as `ngIf` and `ngFor`.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-227. ### What are the differences between ngmodule and javascript module?
-     Below are the main differences between Angular NgModule and javascript module,
-
-     | NgModule | JavaScript module |
-     |---- | --------- |
-     | NgModule bounds declarable classes only | There is no restriction classes |
-     | List the module's classes in declarations array only | Can define all member classes in one giant file |
-     | It only export the declarable classes it owns or imports from other modules| It can export any classes |
-     | Extend the entire application with services by adding providers to provides array | Can't extend the application with services |
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-228. ### What are the possible errors with declarations?
+146. ### What are the possible errors with declarations?
      There are two common possible errors with declarations array,
      1. If you use a component without declaring it, Angular returns an error message.
      2. If you try to declare the same class in more than one module then compiler emits an error.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-229. ### What are the steps to use declaration elements?
-     Below are the steps to be followed to use declaration elements.
-     1. Create the element(component, directive and pipes) and export it from the file where you wrote it
-     2. Import it into the appropriate module.
-     3. Declare it in the @NgModule declarations array.
-
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-230. ### What happens if browserModule used in feature module?
+147. ### What happens if browserModule used in feature module?
      If you do import `BrowserModule` into a lazy loaded feature module, Angular returns an error telling you to use `CommonModule` instead. Because BrowserModule’s providers are for the entire app so it should only be in the root module, not in feature module. Whereas Feature modules only need the common directives in CommonModule.
 
      ![ScreenShot](images/browser-module-error.gif)
 
      **[⬆ Back to Top](#table-of-contents)**
 
-231. ### What are the types of feature modules?
-     Below are the five categories of feature modules,
-     1. **Domain:** Deliver a user experience dedicated to a particular application domain(For example, place an order, registration etc)
-     2. **Routed:** These are domain feature modules whose top components are the targets of router navigation routes.
-     3. **Routing:** It provides routing configuration for another module.
-     4. **Service:** It provides utility services such as data access and messaging(For example, HttpClientModule)
-     5. **Widget:** It makes components, directives, and pipes available to external modules(For example, third-party libraries such as Material UI)
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-232. ### What is a provider?
+148. ### What is a provider?
      A provider is an instruction to the Dependency Injection system on how to obtain a value for a dependency(aka services created). The service can be provided using Angular CLI as below,
      ```javascript
      ng generate service my-service
@@ -2548,12 +2394,12 @@
      ```
      **[⬆ Back to Top](#table-of-contents)**
 
-233. ### What is the recommendation for provider scope?
+149. ### What is the recommendation for provider scope?
      You should always provide your service in the root injector unless there is a case where you want the service to be available only if you import a particular @NgModule.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-234. ### How do you restrict provider scope to a module?
+150. ### How do you restrict provider scope to a module?
      It is possible to restrict service provider scope to a specific module instead making available to entire application. There are two possible ways to do it.
      1. **Using providedIn in service:**
          ```js
