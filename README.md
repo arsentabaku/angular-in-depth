@@ -1,7 +1,5 @@
 # Angular Interview Questions & Answers
 
-> Click :star:if you like the project and follow [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates. 
-
 ---
 
 ### Table of Contents
@@ -134,17 +132,12 @@
 |124| [Can I translate text without creating an element?](#can-i-translate-text-without-creating-an-element)|
 |125| [How can I translate attribute?](#how-can-i-translate-attribute)|
 |126| [How do you select an element in component template?](#how-do-you-select-an-element-in-component-template)|
-|192| [What is TestBed?](#what-is-testbed)|
-|193| [What is protractor?](#what-is-protractor)|
-|194| [What is collection?](#what-is-collection)|
-|195| [How do you create schematics for libraries?](#how-do-you-create-schematics-for-libraries)|
-|196| [How do you use jquery in Angular?](#how-do-you-use-jquery-in-angular)|
-|197| [What is the reason for No provider for HTTP exception?](#what-is-the-reason-for-no-provider-for-http-exception)|
-|198| [What is router state?](#what-is-router-state)|
-|199| [How can I use SASS in angular project?](#how-can-i-use-sass-in-angular-project)|
-|200| [What is the purpose of hidden property?](#what-is-the-purpose-of-hidden-property)|
-|201| [What is the difference between ngIf and hidden property?](#what-is-the-difference-between-ngif-and-hidden-property)|
-|202| [What is slice pipe?](#what-is-slice-pipe)|
+|127| [What is TestBed?](#what-is-testbed)|
+|128| [What is protractor?](#what-is-protractor)|
+|129| [What is the reason for No provider for HTTP exception?](#what-is-the-reason-for-no-provider-for-http-exception)|
+|130| [What is router state?](#what-is-router-state)|
+|131| [What is the purpose of hidden property?](#what-is-the-purpose-of-hidden-property)|
+|132| [What is the difference between ngIf and hidden property?](#what-is-the-difference-between-ngif-and-hidden-property)|
 |203| [What is index property in ngFor directive?](#what-is-index-property-in-ngfor-directive)|
 |204| [What is the purpose of ngFor trackBy?](#what-is-the-purpose-of-ngfor-trackby)|
 |205| [What is the purpose of ngSwitch directive?](#what-is-the-purpose-of-ngswitch-directive)|
@@ -1770,7 +1763,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-150. ### What are polyfills and how to use them in Angular?
+101. ### What are polyfills and how to use them in Angular?
 	Polyfills in Angular, as in any web development context, are pieces of code used to provide modern functionality on older browsers that do not natively support that functionality. They "fill in" the gaps in older browsers' JavaScript implementations, allowing developers to use newer JavaScript features without sacrificing compatibility with older environments.
 
      The Angular CLI provides support for polyfills officially. When you create a new project with the ng new command, a `src/polyfills.ts` configuration file is created as part of your project folder. This file includes the mandatory and many of the optional polyfills as JavaScript import statements. Let's categorize the polyfills,
@@ -1788,7 +1781,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-152. ### What are the ways to trigger change detection in Angular?
+102. ### What are the ways to trigger change detection in Angular?
      You can inject either ApplicationRef or NgZone, or ChangeDetectorRef into your component and apply below specific methods to trigger change detection in Angular. i.e, There are 3 possible ways,
 
      1. **ApplicationRef.tick():** Invoke this method to explicitly process change detection and its side-effects. It check the full component tree.
@@ -1797,7 +1790,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-153. ### What are the differences of various versions of Angular?
+103. ### What are the differences of various versions of Angular?
      There are different versions of Angular framework. Let's see the features of all the various versions,
 
      1. **Angular 1:**
@@ -1857,7 +1850,7 @@
 
       **[⬆ Back to Top](#table-of-contents)**
 
-154. ### What are the security principles in angular?
+104. ### What are the security principles in angular?
      Below are the list of security principles in angular,
 
 		1.	You should avoid direct use of the DOM APIs.
@@ -1869,7 +1862,7 @@
 
 	 **[⬆ Back to Top](#table-of-contents)**
 
-156. ### How do you find angular CLI version?
+105. ### How do you find angular CLI version?
      Angular CLI provides it's installed version using below different ways using ng command,
 
      ```bash
@@ -1890,18 +1883,18 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-158. ### What is schematic?
+106. ### What is schematic?
      It's a scaffolding library that defines how to generate or transform a programming project by creating, modifying, refactoring, or moving files and code. It defines rules that operate on a virtual file system called a tree.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-159. ### What is rule in Schematics?
+107. ### What is rule in Schematics?
 
      In schematics world, it's a function that operates on a file tree to create, delete, or modify files in a specific manner.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-160. ### What is Schematics CLI?
+108. ### What is Schematics CLI?
      Schematics come with their own command-line tool known as Schematics CLI. It is used to install the schematics executable, which you can use to create a new schematics collection with an initial named schematic. The collection folder is a workspace for schematics. You can also use the schematics command to add a new schematic to an existing collection, or extend an existing schematic. You can install Schematic CLI globally as below,
      ```bash
      npm install -g @angular-devkit/schematics-cli
@@ -1909,7 +1902,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-161. ### What are the best practices for security in angular?
+109. ### What are the best practices for security in angular?
      Below are the best practices of security in angular,
 
      1. Use the latest Angular library releases
@@ -1918,12 +1911,12 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-162. ### What is Angular security model for preventing XSS attacks?
+110. ### What is Angular security model for preventing XSS attacks?
      Angular treats all values as untrusted by default. i.e, Angular sanitizes and escapes untrusted values When a value is inserted into the DOM from a template, via property, attribute, style, class binding, or interpolation.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-164. ### What are the various security contexts in Angular?
+111. ### What are the various security contexts in Angular?
      Angular defines the following security contexts for sanitization,
 
      1. **HTML:** It is used when interpreting a value as HTML such as binding to innerHtml.
@@ -1938,7 +1931,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-166. ### What is the purpose of innerHTML?
+112. ### What is the purpose of innerHTML?
      The innerHtml is a property of HTML-Elements, which allows you to set it's html-content programmatically. Let's display the below html code snippet in a `<div>` tag as below using innerHTML binding,
 
      ```html
@@ -1954,7 +1947,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-167. ### What is the difference between interpolated content and innerHTML?
+113. ### What is the difference between interpolated content and innerHTML?
      The main difference between interpolated and innerHTML code is the behavior of code interpreted. Interpolated content is always escaped i.e,  HTML isn't interpreted and the browser displays angle brackets in the element's text content. Where as in innerHTML binding, the content is interpreted i.e, the browser will convert < and > characters as HTMLEntities. For example, the usage in template would be as below,
 
      ```html
@@ -1974,7 +1967,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-168. ### How do you prevent automatic sanitization?
+114. ### How do you prevent automatic sanitization?
      Sometimes the applications genuinely need to include executable code such as displaying `<iframe>` from an URL. In this case, you need to prevent automatic sanitization in Angular by saying that you inspected a value, checked how it was generated, and made sure it will always be secure. Basically it involves 2 steps,
 
      1. Inject DomSanitizer: You can inject DomSanitizer in component as parameter in constructor
@@ -1996,24 +1989,24 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-169. ### Is safe to use direct DOM API methods in terms of security?
+115. ### Is safe to use direct DOM API methods in terms of security?
      No,the built-in browser DOM APIs or methods don't automatically protect you from security vulnerabilities. In this case it is recommended to use Angular templates instead of directly interacting with DOM. If it is unavoidable then use the built-in Angular sanitization functions.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-170. ### What is DOM sanitizer?
+116. ### What is DOM sanitizer?
      `DomSanitizer` is used to help preventing Cross Site Scripting Security bugs (XSS) by sanitizing values to be safe to use in the different DOM contexts.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-172. ### Is angular prevents http level vulnerabilities?
+117. ### Is angular prevents http level vulnerabilities?
      Angular has built-in support for preventing http level vulnerabilities such as as cross-site request forgery (CSRF or XSRF) and cross-site script inclusion (XSSI). Even though these vulnerabilities need to be mitigated on server-side, Angular provides helpers to make the integration easier on the client side.
      1. HttpClient supports a token mechanism used to prevent XSRF attacks
      2. HttpClient library recognizes the convention of prefixed JSON responses(which non-executable js code with ")]}',\\n" characters) and automatically strips the string ")]}',\\n" from all responses before further parsing
 
      **[⬆ Back to Top](#table-of-contents)**
 
-173. ### What are Http Interceptors?
+118. ### What are Http Interceptors?
      Http Interceptors are part of @angular/common/http, which inspect and transform HTTP requests from your application to the server and vice-versa on HTTP responses. These interceptors can perform a variety of implicit tasks, from authentication to logging.
 
      The syntax of HttpInterceptor interface looks like as below,
@@ -2053,7 +2046,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-174. ### What are the applications of HTTP interceptors?
+119. ### What are the applications of HTTP interceptors?
      The HTTP Interceptors can be used for different variety of tasks,
 
      1. Authentication
@@ -2065,7 +2058,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-175. ### Is multiple interceptors supported in Angular?
+120. ### Is multiple interceptors supported in Angular?
      Yes, Angular supports multiple interceptors at a time. You could define multiple interceptors in providers property:
      ```javascript
      providers: [
@@ -2077,7 +2070,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-176. ### How can I use interceptor for an entire application?
+121. ### How can I use interceptor for an entire application?
      You can use same instance of `HttpInterceptors` for the entire app by importing the `HttpClientModule` only in your AppModule, and add the interceptors to the root application injector.
      For example, let's define a class that is injectable in root application.
       ```javascript
@@ -2112,7 +2105,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-179. ### What are the four phases of template translation?
+122. ### What are the four phases of template translation?
      The i18n template translation process has four phases:
 
      1. **Mark static text messages in your component templates for translation:** You can place i18n on every element tag whose fixed text is to be translated. For example, you need i18n attribue for heading as below,
@@ -2147,14 +2140,14 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-180. ### What is the purpose of i18n attribute?
+123. ### What is the purpose of i18n attribute?
      The Angular i18n attribute marks translatable content. It is a custom attribute, recognized by Angular tools and compilers. The compiler removes it after translation.
 
      **Note:** Remember that i18n is not an Angular directive.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-183. ### Can I translate text without creating an element?
+124. ### Can I translate text without creating an element?
      Yes, you can achieve using `<ng-container>` attribute. Normally you need to wrap a text content with i18n attribute for the translation. But if you don't want to create a new DOM element just for the sake of translation, you can wrap the text in an <ng-container> element.
      ```html
      <ng-container i18n>I'm not using any DOM element for translation</ng-container>
@@ -2163,7 +2156,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-184. ### How can I translate attribute?
+125. ### How can I translate attribute?
      You can translate attributes by attaching `i18n-x` attribute  where x is the name of the attribute to translate. For example, you can translate image title attribute as below,
      ```html
      <img [src]="example" i18n-title title="Internationlization" />
@@ -2172,7 +2165,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-191. ### How do you select an element in component template?
+126. ### How do you select an element in component template?
      You can control any DOM element via ElementRef by injecting it into your component's constructor. i.e, The component should have constructor with ElementRef parameter,
      ```javascript
      constructor(myElement: ElementRef) {
@@ -2182,12 +2175,12 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-192. ### What is TestBed?
+127. ### What is TestBed?
      TestBed is an api for writing unit tests for Angular applications and it's libraries. Even though We still write our tests in Jasmine and run using Karma, this API provides an easier way to create components, handle injection, test asynchronous behaviour and interact with our application.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-193. ### What is protractor?
+128. ### What is protractor?
      Protractor is an end-to-end test framework for Angular and AngularJS applications. It runs tests against your application running in a real browser, interacting with it as a user would.
      ```javascript
      npm install -g protractor
@@ -2195,62 +2188,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-194. ### What is collection?
-     Collection is a set of related schematics collected in an npm package. For example, `@schematics/angular` collection is used in Angular CLI to apply transforms to a web-app project. You can create your own schematic collection for customizing angular projects.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-195. ### How do you create schematics for libraries?
-     You can create your own schematic collections to integrate your library with the Angular CLI. These collections are classified as 3 main schematics,
-     1. **Add schematics:** These schematics are used to install library in an Angular workspace using `ng add` command.
-        For example, @angular/material schematic tells the add command to install and set up Angular Material and theming.
-     2. **Generate schematics**: These schematics are used to modify projects, add configurations and scripts, and scaffold artifacts in library using `ng generate` command.
-        For example, @angular/material generation schematic supplies generation schematics for the UI components. Let's say the table component is generated using `ng generate @angular/material:table `.
-     3. **Update schematics:** These schematics are used to update library's dependencies and adjust for breaking changes in a new library release using `ng update` command.
-        For example, @angular/material update schematic updates material and cdk dependencies using `ng update @angular/material` command.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-196. ### How do you use jquery in Angular?
-     You can use jquery in Angular using 3 simple steps,
-     1. **Install the dependency:** At first, install the jquery dependency using npm
-         ```cmd
-            npm install --save jquery
-         ```
-     2. **Add the jquery script:** In Angular-CLI project, add the relative path to jquery in the angular.json file.
-         ```javascript
-         "scripts": [
-            "node_modules/jquery/dist/jquery.min.js"
-         ]
-         ```
-     3. **Start using jquery:** Define the element in template. Whereas declare the jquery variable and apply CSS classes on the element.
-         ```html
-         <div id="elementId">
-           <h1>JQuery integration</h1>
-         </div>
-         ```
-         ```javascript
-         import {Component, OnInit} from '@angular/core';
-
-         declare var $: any; // (or) import * as $ from 'jquery';
-
-         @Component({
-           selector: 'app-root',
-           templateUrl: './app.component.html',
-           styleUrls: ['./app.component.css']
-         })
-         export class AppComponent implements OnInit {
-           ngOnInit(): void {
-             $(document).ready(() => {
-               $('#elementId').css({'text-color': 'blue', 'font-size': '150%'});
-             });
-           }
-         }
-         ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-197. ### What is the reason for No provider for HTTP exception?
+129. ### What is the reason for No provider for HTTP exception?
      This exception is due to missing HttpClientModule in your module. You just need to import in module as below,
      ```javascript
      import { HttpClientModule } from '@angular/common/http';
@@ -2268,7 +2206,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-198. ### What is router state?
+130. ### What is router state?
      The RouteState is an interface which represents the state of the router as a tree of activated routes.
      ```javascript
      interface RouterState extends Tree {
@@ -2280,18 +2218,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-199. ### How can I use SASS in angular project?
-     When you are creating your project with angular cli, you can use `ng new`command. It generates all your components with predefined sass files.
-     ```javascript
-     ng new My_New_Project --style=sass
-     ```
-     But if you are changing your existing style in your project then use `ng set` command,
-     ```javascript
-     ng set defaults.styleExt scss
-     ```
-     **[⬆ Back to Top](#table-of-contents)**
-
-200. ### What is the purpose of hidden property?
+131. ### What is the purpose of hidden property?
      The hidden property is used  to show or hide the associated DOM element, based on an expression. It can be compared close to `ng-show` directive in AngularJS. Let's say you want to show user name based on the availability of user using `hidden` property.
      ```javascript
      <div [hidden]="!user.name">
@@ -2300,7 +2227,7 @@
      ```
      **[⬆ Back to Top](#table-of-contents)**
 
-201. ### What is the difference between ngIf and hidden property?
+132. ### What is the difference between ngIf and hidden property?
      The main difference is that *ngIf will remove the element from the DOM, while [hidden] actually plays with the CSS style by setting `display:none`. Generally it is expensive to add and remove stuff from the DOM for frequent actions.
 
      **[⬆ Back to Top](#table-of-contents)**
