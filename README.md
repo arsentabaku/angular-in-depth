@@ -109,19 +109,16 @@
 |98| [What is Angular Material?](#what-is-angular-material)|
 |99| [What is NgUpgrade?](#what-is-ngupgrade)|
 |100| [How do you test Angular application using CLI?](#how-do-you-test-angular-application-using-cli)|
-|150| [How to use polyfills in Angular application?](#how-to-use-polyfills-in-angular-application)|
-|151| [What are the ways to trigger change detection in Angular?](#what-are-the-ways-to-trigger-change-detection-in-angular)|
-|152| [What are the differences of various versions of Angular?](#what-are-the-differences-of-various-versions-of-angular)|
-|153| [What are the security principles in angular?](#what-are-the-security-principles-in-angular)|
-|154| <!--[What is the reason to deprecate Web Tracing Framework?](#what-is-the-reason-to-deprecate-web-tracing-framework)-->
-|155| <!--[What is the reason to deprecate web worker packages?](#what-is-the-reason-to-deprecate-web-worker-packages)-->
-|156| [How do you find angular CLI version?](#how-do-you-find-angular-cli-version)|
-|157| <!--[What is the browser support for Angular?](#what-is-the-browser-support-for-angular)-->
-|158| [What is schematic](#what-is-schematic)|
-|159| [What is rule in Schematics?](#what-is-rule-in-schematics)|
-|160| [What is Schematics CLI?](#what-is-schematics-cli)|
-|161| [What are the best practices for security in angular?](#what-are-the-best-practices-for-security-in-angular)|
-|162| [What is Angular security model for preventing XSS attacks?](#what-is-angular-security-model-for-preventing-xss-attacks)|
+|101| [How to use polyfills in Angular application?](#how-to-use-polyfills-in-angular-application)|
+|102| [What are the ways to trigger change detection in Angular?](#what-are-the-ways-to-trigger-change-detection-in-angular)|
+|103| [What are the differences of various versions of Angular?](#what-are-the-differences-of-various-versions-of-angular)|
+|104| [What are the security principles in angular?](#what-are-the-security-principles-in-angular)|
+|105| [How do you find angular CLI version?](#how-do-you-find-angular-cli-version)|
+|106| [What is schematic](#what-is-schematic)|
+|107| [What is rule in Schematics?](#what-is-rule-in-schematics)|
+|108| [What is Schematics CLI?](#what-is-schematics-cli)|
+|109| [What are the best practices for security in angular?](#what-are-the-best-practices-for-security-in-angular)|
+|110| [What is Angular security model for preventing XSS attacks?](#what-is-angular-security-model-for-preventing-xss-attacks)|
 |163| [What is the role of template compiler for prevention of XSS attacks?](#what-is-the-role-of-template-compiler-for-prevention-of-xss-attacks)|
 |164| [What are the various security contexts in Angular?](#what-are-the-various-security-contexts-in-Angular)|
 |165| [What is Sanitization? Is angular supports it?](#what-is-sanitization?Is-angular-supports-it)|
@@ -1887,16 +1884,6 @@
 
 	 **[⬆ Back to Top](#table-of-contents)**
 
-154. ### What is the reason to deprecate Web Tracing Framework?
-     Angular has supported the integration with the Web Tracing Framework (WTF) for the purpose of performance testing. Since it is not well maintained and failed in majority of the applications, the support is deprecated in latest releases.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-155. ### What is the reason to deprecate web worker packages?
-     Both `@angular/platform-webworker` and `@angular/platform-webworker-dynamic` are officially deprecated, the Angular team realized it's not good practice to run the Angular application on Web worker
-
-     **[⬆ Back to Top](#table-of-contents)**
-
 156. ### How do you find angular CLI version?
      Angular CLI provides it's installed version using below different ways using ng command,
 
@@ -1915,22 +1902,6 @@
      Angular:
      ...
      ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-157. ### What is the browser support for Angular?
-     Angular supports most recent browsers which includes both desktop and mobile browsers.
-
-     | Browser | Version |
-     |---- | --------- |
-     | Chrome | latest |
-     | Firefox | latest |
-     | Edge | 2 most recent major versions |
-     | IE | 11, 10, 9 (Compatibility mode is not supported) |
-     | Safari | 2 most recent major versions |
-     | IE Mobile | 11 |
-     | iOS | 2 most recent major versions |
-     | Android | 7.0, 6.0, 5.0, 5.1, 4.4 |
 
      **[⬆ Back to Top](#table-of-contents)**
 
