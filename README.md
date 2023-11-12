@@ -156,49 +156,30 @@
 |148| [What is a provider?](#what-is-a-provider)|
 |149| [What is the recommendation for provider scope?](#what-is-the-recommendation-for-provider-scope#)|
 |150| [How do you restrict provider scope to a module?](#how-do-you-restrict-provider-scope-to-a-module)|
-|235| [How do you provide a singleton service?](#how-do-you-provide-a-singleton-service)|
-|236| [What are the different ways to remove duplicate service registration?](#what-are-the-different-ways-to-remove-duplicate-service-registration)|
-|237| [How does forRoot method helpful to avoid duplicate router instances?](#how-does-forroot-method-helpful-to-avoid-duplicate-router-instances)|
-|238| [What is a shared module?](#what-is-a-shared-module)|
-|239| [Can I share services using modules?](#can-i-share-services-using-modules)|
-|241| [What is ngcc?](#what-is-ngcc)|
-|242| [What classes should not be added to declarations?](#what-classes-should-not-be-added-to-declarations)|
-|243| [What is ngzone?](#what-is-ngzone)|
-|244| [What is NoopZone?](#what-is-noopzone)|
-|245| [How do you create displayBlock components?](#how-do-you-create-displayblock-components)|
-|246| [What are the possible data change scenarios for change detection?](#what-are-the-possible-data-change-scenarios-for-change-detection)|
-|247| [What is a zone context?](#what-is-a-zone-context)|
-|248| [What are the lifecycle hooks of a zone?](#what-are-the-lifecycle-hooks-of-a-zone)|
-|249| [Which are the methods of NgZone used to control change detection?](#which-are-the-methods-of-ngzone-used-to-control-change-detection)|
-|250| [How do you change the settings of zonejs?](#how-do-you-change-the-settings-of-zonejs)|
-|251| [How do you trigger an animation?](#how-do-you-trigger-an-animation)|
-|252| [How do you configure injectors with providers at different levels?](#how-do-you-configure-injectors-with-providers-at-different-levels)|
-|253| [Is it mandatory to use injectable on every service class?](#is-it-mandatory-to-use-injectable-on-every-service-class)|
-|254| [What is an optional dependency?](#what-is-an-optional-dependency)|
-|255| [What are the types of injector hierarchies?](#what-are-the-types-of-injector-hierarchies)|
-|256| [What are reactive forms?](#what-are-reactive-forms)|
-|257| [What are dynamic forms?](#what-are-dynamic-forms)|
-|258| [What are template driven forms?](#what-are-template-driven-forms)|
-|259| [What are the differences between reactive forms and template driven forms?](#what-are-the-differences-between-reactive-forms-and-template-driven-forms)|
-|260| [What are the different ways to group form controls?](#what-are-the-different-ways-to-group-form-controls)|
-|261| [How do you update specific properties of a form model?](#how-do-you-update-specific-properties-of-a-form-model)|
-|262| [What is the purpose of FormBuilder?](#what-is-the-purpose-of-formbuilder)|
-|263| [How do you verify the model changes in forms?](#how-do-you-verify-the-model-changes-in-forms)|
-|264| [What are the state CSS classes provided by ngModel?](#what-are-the-state-css-classes-provided-by-ngmodel)|
-|265| [How do you reset the form?](#how-do-you-reset-the-form)|
-|266| [What are the types of validator functions?](#what-are-the-types-of-validator-functions)|
-|267| [Can you give an example of built-in validators?](#can-you-give-an-example-of-built-in-validators)|
-|268| [How do you optimize the performance of async validators?](#how-do-you-optimize-the-performance-of-async-validators)|
-|269| [How to set ngFor and ngIf on the same element?](#how-to-set-ngfor-and-ngif-on-the-same-element)|
-|270| [What is host property in css?](#what-is-host-property-in-css)|
-|271| [How do you get the current route?](#how-do-you-get-the-current-route)|
-|272| [What is Component Test Harnesses?](#what-is-component-test-harnesses)|
-|274| [What is content projection?](#what-is-content-projection)|
-|275| [What is ng-content and its purpose?](#what-is-ng-content-and-its-purpose)|
-|276| [What is standalone component?](#what-is-standalone-component)|
-|277| [How to create a standalone component uing CLI command?](#how-to-create-a-standalone-component-uing-cli-command)
-|278| [How to create a standalone component manually?](#how-to-create-a-standalone-component-manually)
-|279| [What is hydration ?](#what-is-hydration)
+|151| [How do you provide a singleton service?](#how-do-you-provide-a-singleton-service)|
+|152| [How does forRoot method helpful to avoid duplicate router instances?](#how-does-forroot-method-helpful-to-avoid-duplicate-router-instances)|
+|153| [What is a shared module?](#what-is-a-shared-module)|
+|154| [Can I share services using modules?](#can-i-share-services-using-modules)|
+|155| [What is ngcc?](#what-is-ngcc)|
+|156| [What is ngzone?](#what-is-ngzone)|
+|157| [How do you configure injectors with providers at different levels?](#how-do-you-configure-injectors-with-providers-at-different-levels)|
+|158| [Is it mandatory to use injectable on every service class?](#is-it-mandatory-to-use-injectable-on-every-service-class)|
+|159| [What is an optional dependency?](#what-is-an-optional-dependency)|
+|160| [What are reactive forms?](#what-are-reactive-forms)|
+|161| [What are template driven forms?](#what-are-template-driven-forms)|
+|162| [What are the differences between reactive forms and template driven forms?](#what-are-the-differences-between-reactive-forms-and-template-driven-forms)|
+|163| [What are the different ways to group form controls?](#what-are-the-different-ways-to-group-form-controls)|
+|164| [How do you update specific properties of a form model?](#how-do-you-update-specific-properties-of-a-form-model)|
+|165| [What is the purpose of FormBuilder?](#what-is-the-purpose-of-formbuilder)|
+|166| [What are the state CSS classes provided by ngModel?](#what-are-the-state-css-classes-provided-by-ngmodel)|
+|167| [How do you reset the form?](#how-do-you-reset-the-form)|
+|168| [Can you give an example of built-in validators?](#can-you-give-an-example-of-built-in-validators)|
+|169| [How to set ngFor and ngIf on the same element?](#how-to-set-ngfor-and-ngif-on-the-same-element)|
+|170| [What is host property in css?](#what-is-host-property-in-css)|
+|171| [How do you get the current route?](#how-do-you-get-the-current-route)|
+|172| [What is ng-content and its purpose?](#what-is-ng-content-and-its-purpose)|
+|173| [What is standalone component?](#what-is-standalone-component)|
+|174| [What is hydration ?](#what-is-hydration)
 |279| [](#)
 
 1. ### What is Angular Framework?
@@ -2427,7 +2408,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-235. ### How do you provide a singleton service?
+151. ### How do you provide a singleton service?
      There are two possible ways to provide a singleton service.
      1. Set the providedIn property of the @Injectable() to "root". This is the preferred way(starting from Angular 6.0) of creating a singleton service since it makes your services tree-shakable.
 
@@ -2452,20 +2433,12 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-236. ### What are the different ways to remove duplicate service registration?
-     If a module defines provides and declarations then loading the module in multiple feature modules will duplicate the registration of the service. Below are the different ways to prevent this duplicate behavior.
-     1. Use the providedIn syntax instead of registering the service in the module.
-     2. Separate your services into their own module.
-     3. Define forRoot() and forChild() methods in the module.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-237. ### How does forRoot method helpful to avoid duplicate router instances?
+152. ### How does forRoot method helpful to avoid duplicate router instances?
      If the `RouterModule` module didn’t have forRoot() static method then each feature module would instantiate a new Router instance, which leads to broken application due to duplicate instances. After using forRoot() method, the root application module imports `RouterModule.forRoot(...)` and gets a Router, and all feature modules import `RouterModule.forChild(...)` which does not instantiate another Router.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-238. ### What is a shared module?
+153. ### What is a shared module?
      The Shared Module is the module in which you put commonly used directives, pipes, and components into one module that is shared(import it) throughout the application.
 
      For example, the below shared module imports CommonModule, FormsModule for common directives and components, pipes and directives based on the need,
@@ -2488,12 +2461,12 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-239. ### Can I share services using modules?
+154. ### Can I share services using modules?
      No, it is not recommended to share services by importing module. i.e Import modules when you want to use directives, pipes, and components only. The best approach to get a hold of shared services is through 'Angular dependency injection' because importing a module will result in a new service instance.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-241. ### What is ngcc?
+155. ### What is ngcc?
      The ngcc(Angular Compatibility Compiler) is a tool which upgrades node_module compiled with non-ivy ngc into ivy compliant format. The `postinstall` script from package.json will make sure your node_modules will be compatible with the Ivy renderer.
      ```js
      "scripts": {
@@ -2505,245 +2478,14 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-242. ### What classes should not be added to declarations?
-     The below class types shouldn't be added to declarations
-     1. A class which is already declared in any another module.
-     2. Directives imported from another module.
-     3. Module classes.
-     4. Service classes.
-     5. Non-Angular classes and objects, such as strings, numbers, functions, entity models, configurations, business logic, and helper classes.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-243. ### What is NgZone?
+156. ### What is NgZone?
      Angular provides a service called NgZone which creates a zone named `angular` to automatically trigger change detection when the following conditions are satisfied.
      1. When a sync or async function is executed.
      2. When there is no microTask scheduled.
 
      **[⬆ Back to Top](#table-of-contents)**
 
-244. ### What is NoopZone?
-     Zone is loaded/required by default in Angular applications and it helps Angular to know when to trigger the change detection. This way, it make sures developers focus on application development rather core part of Angular. You can also use Angular without Zone but the change detection need to be implemented on your own and `noop zone` need to be configured in bootstrap process.
-     Let's follow the below two steps to remove zone.js,
-     1. Remove the zone.js import from polyfills.ts.
-         ```js
-         /***************************************************************************************************
-          * Zone JS is required by default for Angular itself.
-          */
-         // import 'zone.js/dist/zone';  // Included with Angular CLI.
-         ```
-     2. Bootstrap Angular with noop zone in src/main.ts.
-         ```js
-         platformBrowserDynamic().bootstrapModule(AppModule, {ngZone: 'noop'})
-           .catch(err => console.error(err));
-         ```
-     **[⬆ Back to Top](#table-of-contents)**
-
-245. ### How do you create displayBlock components?
-     By default, Angular CLI creates components in an inline displayed mode(i.e, display:inline). But it is possible to create components with display: block style using `displayBlock` option,
-     ```js
-     ng generate component my-component --displayBlock
-     ```
-     (OR) the option can be turned on by default in Angular.json with `schematics.@schematics/angular:component.displayBlock` key value as true.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-246. ### What are the possible data update scenarios for change detection?
-     The change detection works in the following scenarios where the data changes needs to update the application HTML.
-     1. **Component initialization:** While bootstrapping the Angular application, Angular triggers the `ApplicationRef.tick()` to call change detection and View Rendering.
-     2. **Event listener:**  The DOM event listener can update the data in an Angular component and trigger the change detection too.
-         ```js
-         @Component({
-           selector: 'app-event-listener',
-           template: `
-             <button (click)="onClick()">Click</button>
-             {{message}}`
-         })
-         export class EventListenerComponent {
-           message = '';
-
-           onClick() {
-             this.message = 'data updated';
-           }
-         }
-         ```
-     3. **HTTP Data Request:** You can get data from a server through an HTTP request
-         ```js
-         data = 'default value';
-         constructor(private httpClient: HttpClient) {}
-
-           ngOnInit() {
-             this.httpClient.get(this.serverUrl).subscribe(response => {
-               this.data = response.data; // change detection will happen automatically
-             });
-           }
-         ```
-     4. **Macro tasks setTimeout() or setInterval():** You can update the data in the callback function of setTimeout or setInterval
-         ```js
-         data = 'default value';
-
-           ngOnInit() {
-             setTimeout(() => {
-               this.data = 'data updated'; // Change detection will happen automatically
-             });
-           }
-         ```
-     5. **Micro tasks Promises:** You can update the data in the callback function of promise
-         ```js
-         data = 'initial value';
-
-           ngOnInit() {
-             Promise.resolve(1).then(v => {
-               this.data = v; // Change detection will happen automatically
-             });
-           }
-         ```
-     6. **Async operations like Web sockets and Canvas:** The data can be updated asynchronously using WebSocket.onmessage() and Canvas.toBlob().
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-247. ### What is a zone context?
-      Execution Context is an abstract concept that holds information about the environment within the current code being executed. A zone provides an execution context that persists across asynchronous operations is called as zone context. For example, the zone context will be same in both outside and inside setTimeout callback function,
-      ```js
-      zone.run(() => {
-        // outside zone
-        expect(zoneThis).toBe(zone);
-        setTimeout(function() {
-          // the same outside zone exist here
-          expect(zoneThis).toBe(zone);
-        });
-      });
-      ```
-      The current zone is retrieved through `Zone.current`.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-248. ### What are the lifecycle hooks of a zone?
-     There are four lifecycle hooks for asynchronous operations from zone.js.
-     1. **onScheduleTask:** This hook triggers when a new asynchronous task is scheduled. For example, when you call setTimeout()
-         ```js
-         onScheduleTask: function(delegate, curr, target, task) {
-             console.log('new task is scheduled:', task.type, task.source);
-             return delegate.scheduleTask(target, task);
-           }
-         ```
-     2. **onInvokeTask:** This hook triggers when an asynchronous task is about to execute. For example, when the callback of setTimeout() is about to execute.
-         ```js
-         onInvokeTask: function(delegate, curr, target, task, applyThis, applyArgs) {
-             console.log('task will be invoked:', task.type, task.source);
-             return delegate.invokeTask(target, task, applyThis, applyArgs);
-           }
-         ```
-     3. **onHasTask:** This hook triggers when the status of one kind of task inside a zone changes from stable(no tasks in the zone) to unstable(a new task is scheduled in the zone) or from unstable to stable.
-         ```js
-           onHasTask: function(delegate, curr, target, hasTaskState) {
-             console.log('task state changed in the zone:', hasTaskState);
-             return delegate.hasTask(target, hasTaskState);
-           }
-         ```
-     4. **onInvoke:** This hook triggers when a synchronous function is going to execute in the zone.
-         ```js
-         onInvoke: function(delegate, curr, target, callback, applyThis, applyArgs) {
-             console.log('the callback will be invoked:', callback);
-             return delegate.invoke(target, callback, applyThis, applyArgs);
-           }
-         ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-249. ### What are the methods of NgZone used to control change detection?
-     NgZone service provides a `run()` method that allows you to execute a function inside the angular zone. This function is used to execute third party APIs which are not handled by Zone and trigger change detection automatically at the correct time.
-     ```js
-     export class AppComponent implements OnInit {
-       constructor(private ngZone: NgZone) {}
-       ngOnInit() {
-         // use ngZone.run() to make the asynchronous operation in the angular zone
-         this.ngZone.run(() => {
-           someNewAsyncAPI(() => {
-             // update the data of the component
-           });
-         });
-       }
-     }
-     ```
-     Whereas `runOutsideAngular()` method is used when you don't want to trigger change detection.
-     ```js
-     export class AppComponent implements OnInit {
-       constructor(private ngZone: NgZone) {}
-       ngOnInit() {
-         // Use this method when you know no data will be updated
-         this.ngZone.runOutsideAngular(() => {
-           setTimeout(() => {
-             // update component data and don't trigger change detection
-           });
-         });
-       }
-     }
-     ```
-     **[⬆ Back to Top](#table-of-contents)**
-
-250. ### How do you change the settings of zonejs?
-     You can change the settings of zone by configuring them in a separate file and import it just after zonejs import.
-     For example, you can disable the requestAnimationFrame() monkey patch to prevent change detection for no data update as one setting and prevent DOM events(a mousemove or scroll event) to trigger change detection. Let's say the new file named zone-flags.js,
-     ```js
-     // disable patching requestAnimationFrame
-     (window as any).__Zone_disable_requestAnimationFrame = true;
-
-     // disable patching specified eventNames
-     (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove'];
-     ```
-     The above configuration file can be imported in a polyfill.ts file as below,
-     ```js
-     /***************************************************************************************************
-      * Zone JS is required by default for Angular.
-      */
-     import `./zone-flags`;
-     import 'zone.js/dist/zone';  // Included with Angular CLI.
-     ```
-     **[⬆ Back to Top](#table-of-contents)**
-
-251. ### How do you trigger an animation?
-     Angular provides a `trigger()` function for animation in order to collect the states and transitions with a specific animation name, so that you can attach it to the triggering element in the HTML template. This function watch for changes and trigger initiates the actions when a change occurs.
-     For example, let's create trigger named `upDown`, and attach it to the button element.
-     ```js
-     content_copy
-     @Component({
-       selector: 'app-up-down',
-       animations: [
-         trigger('upDown', [
-           state('up', style({
-             height: '200px',
-             opacity: 1,
-             backgroundColor: 'yellow'
-           })),
-           state('down', style({
-             height: '100px',
-             opacity: 0.5,
-             backgroundColor: 'green'
-           })),
-           transition('up => down', [
-             animate('1s')
-           ]),
-           transition('down => up', [
-             animate('0.5s')
-           ]),
-         ]),
-       ],
-       templateUrl: 'up-down.component.html',
-       styleUrls: ['up-down.component.css']
-     })
-     export class UpDownComponent {
-       isUp = true;
-
-       toggle() {
-         this.isUp = !this.isUp;
-       }
-
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-252. ### How do you configure injectors with providers at different levels?
+157. ### How do you configure injectors with providers at different levels?
      You can configure injectors with providers at different levels of your application by setting a metadata value. The configuration can happen in one of three places,
      1. In the `@Injectable()` decorator for the service itself
      2. In the `@NgModule()` decorator for an NgModule
@@ -2751,7 +2493,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-253. ### Is it mandatory to use injectable on every service class?
+158. ### Is it mandatory to use injectable on every service class?
      No. The `@Injectable()` decorator is not strictly required if the class has other Angular decorators on it or does not have any dependencies. But the important thing here is any class that is going to be injected with Angular is decorated.
      i.e, If we add the decorator, the metadata `design:paramtypes` is added, and the dependency injection can do it's job. That is the exact reason to add the @Injectable() decorator on a service if this service has some dependencies itself.
      For example, Let's see the different variations of AppService in a root component,
@@ -2803,7 +2545,7 @@
          ```
      **[⬆ Back to Top](#table-of-contents)**
 
-254. ### What is an optional dependency?
+159. ### What is an optional dependency?
      The optional dependency is a parameter decorator to be used on constructor parameters, which marks the parameter as being an optional dependency. Due to this, the DI framework provides null if the dependency is not found.
      For example, If you don't register a logger provider anywhere, the injector sets the value of logger(or logger service) to null in the below class.
      ```js
@@ -2820,15 +2562,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-255. ### What are the types of injector hierarchies?
-     There are two types of injector hierarchies in Angular
-
-     1. **ModuleInjector hierarchy:** It configure on a module level using an @NgModule() or @Injectable() annotation.
-     2. **ElementInjector hierarchy:** It created implicitly at each DOM element. Also it is empty by default unless you configure it in the providers property on @Directive() or @Component().
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-256. ### What are reactive forms?
+160. ### What are reactive forms?
      Reactive forms is a model-driven approach for creating forms in a reactive style(form inputs changes over time). These are built around observable streams, where form inputs and values are provided as streams of input values. Let's follow the below steps to create reactive forms,
      1. Register the reactive forms module which declares reactive-form directives in your app
          ```js
@@ -2884,12 +2618,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-257. ### What are dynamic forms?
-     Dynamic forms is a pattern in which we build a form dynamically based on metadata that describes a business object model. You can create them based on reactive form API.
-     **[⬆ Back to Top](#table-of-contents)**
-
-
-258. ### What are template driven forms?
+161. ### What are template driven forms?
      Template driven forms are model-driven forms where you write the logic, validations, controls etc, in the template part of the code using directives. They are suitable for simple scenarios and uses two-way binding with [(ngModel)] syntax.
      For example, you can create register form easily by following the below simple steps,
 
@@ -2963,7 +2692,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-259. ### What are the differences between reactive forms and template driven forms?
+162. ### What are the differences between reactive forms and template driven forms?
      Below are the main differences between reactive forms and template driven forms
 
      | Feature | Reactive | Template-Driven |
@@ -2978,7 +2707,7 @@
      **[⬆ Back to Top](#table-of-contents)**
 
 
-260. ### What are the different ways to group form controls?
+163. ### What are the different ways to group form controls?
      Reactive forms provide two ways of grouping multiple related controls.
      1. **FormGroup**: It defines a form with a fixed set of controls those can be managed together in an one object. It has same properties and methods similar to a FormControl instance.
         This FormGroup can be nested to create complex forms as below.
@@ -3112,7 +2841,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-261. ### How do you update specific properties of a form model?
+164. ### How do you update specific properties of a form model?
      You can use `patchValue()` method to update specific properties defined in the form model. For example,you can update the name and street of certain profile on click of the update button as shown below.
      ```js
      updateProfile() {
@@ -3134,7 +2863,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-262. ### What is the purpose of FormBuilder?
+165. ### What is the purpose of FormBuilder?
      FormBuilder is used as syntactic sugar for easily creating instances of a FormControl, FormGroup, or FormArray. This is helpful to reduce the amount of boilerplate needed to build complex reactive forms. It is available as an injectable helper class of the `@angular/forms` package.
 
      For example, the user profile component creation becomes easier as shown here.
@@ -3155,28 +2884,7 @@
      ```
      **[⬆ Back to Top](#table-of-contents)**
 
-263. ### How do you verify the model changes in forms?
-     You can add a getter property(let's say, diagnostic) inside component to return a JSON representation of the model during the development. This is useful to verify whether the values are really flowing from the input box to the model and vice versa or not.
-     ```js
-     export class UserProfileComponent {
-
-       model = new User('John', 29, 'Writer');
-
-       // TODO: Remove after the verification
-       get diagnostic() { return JSON.stringify(this.model); }
-     }
-     ```
-     and add `diagnostic` binding near the top of the form
-     ```html
-     {{diagnostic}}
-     <div class="form-group">
-       // FormControls goes here
-     </div>
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-264. ### What are the state CSS classes provided by ngModel?
+166. ### What are the state CSS classes provided by ngModel?
      The ngModel directive updates the form control with special Angular CSS classes to reflect it's state. Let's find the list of classes in a tabular format,
 
      | Form control state | If true | If false |
@@ -3187,7 +2895,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-265. ### How do you reset the form?
+167. ### How do you reset the form?
      In a model-driven form, you can reset the form just by calling the function `reset()` on our form model.
      For example, you can reset the form model on submission as follows,
      ```js
@@ -3203,51 +2911,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-266. ### What are the types of validator functions?
-     In reactive forms, the validators can be either synchronous or asynchronous functions,
-     1. **Sync validators:** These are the synchronous functions which take a control instance and immediately return either a set of validation errors or null. Also, these functions passed as second argument while instantiating the form control. The main use cases are simple checks like whether a field is empty, whether it exceeds a maximum length etc.
-     2. **Async validators:** These are the asynchronous functions which take a control instance and return a Promise or Observable that later emits a set of validation errors or null. Also, these functions passed as second argument while instantiating the form control. The main use cases are complex validations like hitting a server to check the availability of a username or email.
-
-     The representation of these validators looks like below
-     ```js
-     this.myForm = formBuilder.group({
-         firstName: ['value'],
-         lastName: ['value', *Some Sync validation function*],
-         email: ['value', *Some validation function*, *Some asynchronous validation function*]
-     });
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-267. ### Can you give an example of built-in validators?
-     In reactive forms, you can use built-in validator like `required` and `minlength` on your input form controls. For example, the registration form can have these validators on name input field
-     ```js
-     this.registrationForm = new FormGroup({
-         'name': new FormControl(this.hero.name, [
-           Validators.required,
-           Validators.minLength(4),
-         ])
-       });
-     ```
-     Whereas in template-driven forms, both `required` and `minlength` validators available as attributes.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-268. ### How do you optimize the performance of async validators?
-     Since all validators run after every form value change, it creates a major impact on performance with async validators by hitting the external API on each keystroke. This situation can be avoided by delaying the form validity by changing the updateOn property from change (default) to submit or blur.
-     The usage would be different based on form types,
-     1. **Template-driven forms:** Set the property on `ngModelOptions` directive
-         ```html
-         <input [(ngModel)]="name" [ngModelOptions]="{updateOn: 'blur'}">
-         ```
-     2. **Reactive-forms:** Set the property on FormControl instance
-         ```js
-         name = new FormControl('', {updateOn: 'blur'});
-         ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-269. ### How to set ngFor and ngIf on the same element?
+168. ### How to set ngFor and ngIf on the same element?
      Sometimes you may need to both ngFor and ngIf on the same element but unfortunately you are going to encounter below template error.
      ```cmd
       Template parse errors: Can't have multiple template bindings on one element.
@@ -3270,7 +2934,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-270. ### What is host property in css?
+169. ### What is host property in css?
      The `:host` pseudo-class selector is used to target styles in the element that hosts the component. Since the host element is in a parent component's template, you can't reach the host element from inside the component by other means.
      For example, you can create a border for parent element as below,
      ```js
@@ -3284,7 +2948,7 @@
      ```
      **[⬆ Back to Top](#table-of-contents)**
 
-271. ### How do you get the current route?
+170. ### How do you get the current route?
      In Angular, there is an `url` property of router package to get the current route. You need to follow the below few steps,
 
      1. Import Router from @angular/router
@@ -3304,101 +2968,17 @@
 
       **[⬆ Back to Top](#table-of-contents)**
 
-272. ### What is Component Test Harnesses?
-     A component harness is a testing API around an Angular directive or component to make tests simpler by hiding implementation details from test suites. This can be shared between unit tests, integration tests, and end-to-end tests. The idea for component harnesses comes from the **PageObject** pattern commonly used for integration testing.
-
-     **[⬆ Back to Top](#table-of-contents)**
-     
-274. ### What is content projection?
-     Content projection is a pattern in which you insert, or project, the content you want to use inside another component.
-
-      **[⬆ Back to Top](#table-of-contents)**
-
-275. ### What is ng-content and its purpose?
+172. ### What is ng-content and its purpose?
      The ng-content is used to insert the content dynamically inside the component that helps to increase component reusability. 
 
       **[⬆ Back to Top](#table-of-contents)**
 
-276. ### What is standalone component?
+173. ### What is standalone component?
       A standalone component is a type of component which is not part of any Angular module. It provides a simplified way to build Angular applications.
 
       **[⬆ Back to Top](#table-of-contents)**
 
-278. ### How to create a standalone component uing CLI command?
-
-      Generate standalone component using CLI command as shown below
-      ```bash
-      ng generate component component-name --standalone
-      ```
-      On running the command standalone component is created.
-      Here is the list of file created.
-      
-      1. `component-name.component.ts`
-      2. `component-name.component.css`
-      3. `component-name.component.spec`
-      4. `component-name.component.html`
-      
-      Next need to update `app.module.ts` as shown below.
-
-      ```typescript
-      import { NgModule } from '@angular/core';
-      import { BrowserModule } from '@angular/platform-browser';
-      import { ComponentNameComponent } from './component-name/component-name.component';
-
-      @NgModule({
-        imports: [
-          BrowserModule,
-          ComponentNameComponent
-        ],
-        declarations: [AppComponent],
-        bootstrap: [AppComponent],
-      })
-      export class AppModule {}
-      ```
-
-      **[⬆ Back to Top](#table-of-contents)**
-
-278. ### How to create a standalone component manually?
-      To make existing component to standalone, then add `standalone: true` in `component-name.component.ts`
-      as shown below
-
-      ```typescript
-      import { CommonModule } from '@angular/common';
-      import { Component, OnInit } from '@angular/core';
-
-      @Component({
-        standalone: true,
-        imports: [CommonModule],
-        selector: 'app-standalone-component',
-        templateUrl: './standalone-component.component.html',
-        styleUrls: ['./standalone-component.component.css'],
-      })
-      export class ComponentNameComponent implements OnInit {
-        constructor() {}
-
-        ngOnInit() {}
-      }
-      ```
-      Next need to update `app.module.ts` as shown below.
-
-      ```typescript
-      import { NgModule } from '@angular/core';
-      import { BrowserModule } from '@angular/platform-browser';
-      import { ComponentNameComponent } from './component-name/component-name.component';
-
-      @NgModule({
-        imports: [
-          BrowserModule,
-          ComponentNameComponent
-        ],
-        declarations: [AppComponent],
-        bootstrap: [AppComponent],
-      })
-      export class AppModule {}
-      ```
-      
-      **[⬆ Back to Top](#table-of-contents)**
-278. ### What is hydration?
+174. ### What is hydration?
       Hydration is the process that restores the server side rendered application on the client. This includes things like reusing the server rendered DOM structures, persisting the application state, transferring application data that was retrieved already by the server, and other processes.
 
       To enable hydration, we have to enable server side rendering or Angular Universal. Once enabled, we can add the following piece of code in the root component.
