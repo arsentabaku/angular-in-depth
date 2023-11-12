@@ -37,7 +37,6 @@
 |27| [How do you chain pipes?](#how-do-you-chain-pipes)|
 |28| [What is a custom pipe?](#what-is-a-custom-pipe)|
 |29| [Give an example of custom pipe?](#give-an-example-of-custom-pipe)|
-|33| <!-- [What is the difference between pure and impure pipe?](#what-is-the-difference-between-pure-and-impure-pipe)-->
 |30| [What is a bootstrapping module?](#what-is-a-bootstrapping-module)|
 |31| [What are observables?](#what-are-observables)|
 |32| [What is HttpClient and its benefits?](#what-is-httpclient-and-its-benefits)|
@@ -109,45 +108,32 @@
 |98| [What is Angular Material?](#what-is-angular-material)|
 |99| [What is NgUpgrade?](#what-is-ngupgrade)|
 |100| [How do you test Angular application using CLI?](#how-do-you-test-angular-application-using-cli)|
-|101| [How to use polyfills in Angular application?](#how-to-use-polyfills-in-angular-application)|
+|101| [What are polyfills and how to use them in Angular?](#how-to-use-polyfills-in-angular-application)|
 |102| [What are the ways to trigger change detection in Angular?](#what-are-the-ways-to-trigger-change-detection-in-angular)|
-|103| [What are the differences of various versions of Angular?](#what-are-the-differences-of-various-versions-of-angular)|
-|104| [What are the security principles in angular?](#what-are-the-security-principles-in-angular)|
-|105| [How do you find angular CLI version?](#how-do-you-find-angular-cli-version)|
-|106| [What is schematic](#what-is-schematic)|
-|107| [What is rule in Schematics?](#what-is-rule-in-schematics)|
-|108| [What is Schematics CLI?](#what-is-schematics-cli)|
-|109| [What are the best practices for security in angular?](#what-are-the-best-practices-for-security-in-angular)|
-|110| [What is Angular security model for preventing XSS attacks?](#what-is-angular-security-model-for-preventing-xss-attacks)|
-|163| [What is the role of template compiler for prevention of XSS attacks?](#what-is-the-role-of-template-compiler-for-prevention-of-xss-attacks)|
-|164| [What are the various security contexts in Angular?](#what-are-the-various-security-contexts-in-Angular)|
-|165| [What is Sanitization? Is angular supports it?](#what-is-sanitization?Is-angular-supports-it)|
-|166| [What is the purpose of innerHTML?](#what-is-the-purpose-of-innerhtml)|
-|167| [What is the difference between interpolated content and innerHTML?](#what-is-the-difference-between-interpolated-content-and-innerhtml)|
-|168| [How do you prevent automatic sanitization?](#how-do-you-prevent-automatic-sanitization)|
-|169| [Is safe to use direct DOM API methods in terms of security?](#is-safe-to-use-direct-dom-api-methods-in-terms-of-security)|
-|170| [What is DOM sanitizer?](#what-is-dom-sanitizer)|
-|171| [How do you support server side XSS protection in Angular application?](#how-do-you-support-server-side-xss-protection-in-angular-application)
-|172| [Is angular prevents http level vulnerabilities?](#is-angular-prevents-http-level-vulnerabilities)|
-|173| [What are Http Interceptors?](#what-are-http-interceptors)|
-|174| [What are the applications of HTTP interceptors?](#what-are-the-applications-of-http-interceptors)|
-|175| [Is multiple interceptors supported in Angular?](#is-multiple-interceptors-supported-in-angular)|
-|176| [How can I use interceptor for an entire application?](#how-can-i-use-interceptor-for-an-entire-application)|
-|177| [How does Angular simplifies Internationalization?](#how-does-angular-simplifies-internationalization)|
-|178| [How do you manually register locale data?](#how-do-you-manually-register-locale-data)|
-|179| [What are the four phases of template translation?](#what-are-the-four-phases-of-template-translation)|
-|180| [What is the purpose of i18n attribute?](#what-is-the-purpose-of-i18n-attribute)|
-|181| [What is the purpose of custom id?](#what-is-the-purpose-of-custom-id)|
-|182| [What happens if the custom id is not unique?](#what-happens-if-the-custom-id-is-not-unique)|
-|183| [Can I translate text without creating an element?](#can-i-translate-text-without-creating-an-element)|
-|184| [How can I translate attribute?](#how-can-i-translate-attribute)|
-|185| [List down the pluralization categories?](#list-down-the-pluralization-categories)|
-|186| [What is select ICU expression?](#what-is-select-icu-expression)|
-|187| [How do you report missing translations?](#how-do-you-report-missing-translations)|
-|188| [How do you provide build configuration for multiple locales?](#how-do-you-provide-build-configuration-for-multiple-locales)|
-|189| [What is an angular library?](#what-is-an-angular-library)|
-|190| [What is AOT compiler?](#what-is-aot-compiler)|
-|191| [How do you select an element in component template?](#how-do-you-select-an-element-in-component-template)|
+|103| [What are the security principles in angular?](#what-are-the-security-principles-in-angular)|
+|104| [How do you find angular CLI version?](#how-do-you-find-angular-cli-version)|
+|105| [What is schematic](#what-is-schematic)|
+|106| [What is rule in Schematics?](#what-is-rule-in-schematics)|
+|107| [What is Schematics CLI?](#what-is-schematics-cli)|
+|108| [What are the best practices for security in angular?](#what-are-the-best-practices-for-security-in-angular)|
+|109| [What is Angular security model for preventing XSS attacks?](#what-is-angular-security-model-for-preventing-xss-attacks)|
+|110| [What are the various security contexts in Angular?](#what-are-the-various-security-contexts-in-Angular)|
+|111| [What is Sanitization? Is angular supports it?](#what-is-sanitization?Is-angular-supports-it)|
+|112| [What is the purpose of innerHTML?](#what-is-the-purpose-of-innerhtml)|
+|113| [What is the difference between interpolated content and innerHTML?](#what-is-the-difference-between-interpolated-content-and-innerhtml)|
+|114| [How do you prevent automatic sanitization?](#how-do-you-prevent-automatic-sanitization)|
+|115| [Is safe to use direct DOM API methods in terms of security?](#is-safe-to-use-direct-dom-api-methods-in-terms-of-security)|
+|116| [What is DOM sanitizer?](#what-is-dom-sanitizer)|
+|117| [Is angular prevents http level vulnerabilities?](#is-angular-prevents-http-level-vulnerabilities)|
+|118| [What are Http Interceptors?](#what-are-http-interceptors)|
+|119| [What are the applications of HTTP interceptors?](#what-are-the-applications-of-http-interceptors)|
+|120| [Is multiple interceptors supported in Angular?](#is-multiple-interceptors-supported-in-angular)|
+|121| [How can I use interceptor for an entire application?](#how-can-i-use-interceptor-for-an-entire-application)|
+|122| [What are the four phases of template translation?](#what-are-the-four-phases-of-template-translation)|
+|123| [What is the purpose of i18n attribute?](#what-is-the-purpose-of-i18n-attribute)|
+|124| [Can I translate text without creating an element?](#can-i-translate-text-without-creating-an-element)|
+|125| [How can I translate attribute?](#how-can-i-translate-attribute)|
+|126| [How do you select an element in component template?](#how-do-you-select-an-element-in-component-template)|
 |192| [What is TestBed?](#what-is-testbed)|
 |193| [What is protractor?](#what-is-protractor)|
 |194| [What is collection?](#what-is-collection)|
@@ -180,7 +166,6 @@
 |221| [What is Angular compiler?](#what-is-angular-compiler)|
 |222| [What is the role of ngModule metadata in compilation process?](#what-is-the-role-of-ngmodule-metadata-in-compilation-process)|
 |223| [How does angular finds components, directives and pipes?](#how-does-angular-finds-components-directives-and-pipes)|
-|224| <!--[Give few examples for NgModules?](#give-few-examples-for-ngmodules)-->
 |225| [What are feature modules?](#what-are-feature-modules)|
 |226| [What are the imported modules in CLI generated feature modules?](#what-are-the-imported-modules-in-cli-generated-feature-modules)|
 |227| [What are the differences between ngmodule and javascript module?](#what-are-the-differences-between-ngmodule-and-javascript-module)|
@@ -196,7 +181,6 @@
 |237| [How does forRoot method helpful to avoid duplicate router instances?](#how-does-forroot-method-helpful-to-avoid-duplicate-router-instances)|
 |238| [What is a shared module?](#what-is-a-shared-module)|
 |239| [Can I share services using modules?](#can-i-share-services-using-modules)|
-|240| <!--[How do you get current direction for locales??](#how-do-you-get-current-direction-for-locales)-->
 |241| [What is ngcc?](#what-is-ngcc)|
 |242| [What classes should not be added to declarations?](#what-classes-should-not-be-added-to-declarations)|
 |243| [What is ngzone?](#what-is-ngzone)|
@@ -229,7 +213,6 @@
 |270| [What is host property in css?](#what-is-host-property-in-css)|
 |271| [How do you get the current route?](#how-do-you-get-the-current-route)|
 |272| [What is Component Test Harnesses?](#what-is-component-test-harnesses)|
-|273| <!--[What is the benefit of Automatic Inlining of Fonts?](#what-is-the-benefit-of-automatic-inlining-of-fonts)-->
 |274| [What is content projection?](#what-is-content-projection)|
 |275| [What is ng-content and its purpose?](#what-is-ng-content-and-its-purpose)|
 |276| [What is standalone component?](#what-is-standalone-component)|
@@ -1787,7 +1770,9 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-150. ### How to use polyfills in Angular application?
+150. ### What are polyfills and how to use them in Angular?
+	Polyfills in Angular, as in any web development context, are pieces of code used to provide modern functionality on older browsers that do not natively support that functionality. They "fill in" the gaps in older browsers' JavaScript implementations, allowing developers to use newer JavaScript features without sacrificing compatibility with older environments.
+
      The Angular CLI provides support for polyfills officially. When you create a new project with the ng new command, a `src/polyfills.ts` configuration file is created as part of your project folder. This file includes the mandatory and many of the optional polyfills as JavaScript import statements. Let's categorize the polyfills,
 
      1. **Mandatory polyfills:** These are installed automatically when you create your project with ng new command and the respective import statements enabled in 'src/polyfills.ts' file.
@@ -1803,7 +1788,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-151. ### What are the ways to trigger change detection in Angular?
+152. ### What are the ways to trigger change detection in Angular?
      You can inject either ApplicationRef or NgZone, or ChangeDetectorRef into your component and apply below specific methods to trigger change detection in Angular. i.e, There are 3 possible ways,
 
      1. **ApplicationRef.tick():** Invoke this method to explicitly process change detection and its side-effects. It check the full component tree.
@@ -1812,7 +1797,7 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-152. ### What are the differences of various versions of Angular?
+153. ### What are the differences of various versions of Angular?
      There are different versions of Angular framework. Let's see the features of all the various versions,
 
      1. **Angular 1:**
@@ -1872,7 +1857,7 @@
 
       **[⬆ Back to Top](#table-of-contents)**
 
-153. ### What are the security principles in angular?
+154. ### What are the security principles in angular?
      Below are the list of security principles in angular,
 
 		1.	You should avoid direct use of the DOM APIs.
@@ -1935,11 +1920,6 @@
 
 162. ### What is Angular security model for preventing XSS attacks?
      Angular treats all values as untrusted by default. i.e, Angular sanitizes and escapes untrusted values When a value is inserted into the DOM from a template, via property, attribute, style, class binding, or interpolation.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-163. ### What is the role of template compiler for prevention of XSS attacks?
-     The offline template compiler prevents vulnerabilities caused by template injection, and greatly improves application performance. So it is recommended to use offline template compiler in production deployments without dynamically generating any template.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2023,11 +2003,6 @@
 
 170. ### What is DOM sanitizer?
      `DomSanitizer` is used to help preventing Cross Site Scripting Security bugs (XSS) by sanitizing values to be safe to use in the different DOM contexts.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-171. ### How do you support server side XSS protection in Angular application?
-     The server-side XSS protection is supported in an angular application by using a templating language that automatically escapes values to prevent XSS vulnerabilities on the server. But don't use a templating language to generate Angular templates on the server side which creates a high risk of introducing template-injection vulnerabilities.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2137,31 +2112,6 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-177. ### How does Angular simplifies Internationalization?
-
-     Angular simplifies the below areas of internationalization,
-     1. Displaying dates, number, percentages, and currencies in a local format.
-     2. Preparing text in component templates for translation.
-     3. Handling plural forms of words.
-     4. Handling alternative text.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-178. ### How do you manually register locale data?
-     By default, Angular only contains locale data for en-US which is English as spoken in the United States of America . But if you want to set to another locale, you must import locale data for that new locale. After that you can register using `registerLocaleData` method and the syntax of this method looks like below,
-     ```javascript
-     registerLocaleData(data: any, localeId?: any, extraData?: any): void
-     ```
-     For example, let us import German locale and register it in the application
-     ```javascript
-     import { registerLocaleData } from '@angular/common';
-     import localeDe from '@angular/common/locales/de';
-
-     registerLocaleData(localeDe, 'de');
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
 179. ### What are the four phases of template translation?
      The i18n template translation process has four phases:
 
@@ -2204,44 +2154,6 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-181. ### What is the purpose of custom id?
-     When you change the translatable text, the Angular extractor tool generates a new id for that translation unit. Because of this behavior, you must then update the translation file with the new id every time.
-
-     For example, the translation file `messages.de.xlf.html` has generated trans-unit for some text message as below
-     ```html
-     <trans-unit id="827wwe104d3d69bf669f823jjde888" datatype="html">
-     ```
-     You can avoid this manual update of `id` attribute by specifying a custom id in the i18n attribute by using the prefix @@.
-     ```javascript
-     <h1 i18n="@@welcomeHeader">Hello i18n!</h1>
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-182. ### What happens if the custom id is not unique?
-     You need to define custom ids as unique. If you use the same id for two different text messages then only the first one is extracted. But its translation is used in place of both original text messages.
-
-     For example, let's define same custom id `myCustomId` for two messages,
-     ```html
-     <h2 i18n="@@myCustomId">Good morning</h3>
-     <!-- ... -->
-     <h2 i18n="@@myCustomId">Good night</p>
-     ```
-     and the translation unit generated for first text in for German language as
-     ```html
-     <trans-unit id="myId" datatype="html">
-       <source>Good morning</source>
-       <target state="new">Guten Morgen</target>
-     </trans-unit>
-     ```
-     Since custom id is the same, both of the elements in the translation contain the same text as below
-     ```html
-     <h2>Guten Morgen</h2>
-     <h2>Guten Morgen</h2>
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
 183. ### Can I translate text without creating an element?
      Yes, you can achieve using `<ng-container>` attribute. Normally you need to wrap a text content with i18n attribute for the translation. But if you don't want to create a new DOM element just for the sake of translation, you can wrap the text in an <ng-container> element.
      ```html
@@ -2257,87 +2169,6 @@
      <img [src]="example" i18n-title title="Internationlization" />
      ```
      By the way, you can also assign meaning, description and id with the i18n-x="<meaning>|<description>@@<id>" syntax.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-185. ### List down the pluralization categories?
-     Pluralization has below categories depending on the language.
-     1. =0 (or any other number)
-     2. zero
-     3. one
-     4. two
-     5. few
-     6. many
-     7. other
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-186. ### What is select ICU expression?
-     ICU expression is is similar to the plural expressions except that you choose among alternative translations based on a string value instead of a number. Here you define those string values.
-
-     Let's take component binding with `residenceStatus` property which has "citizen", "permanent resident" and "foreigner" possible values and the message maps those values to the appropriate translations.
-     ```javascript
-     <span i18n>The person is {residenceStatus, select, citizen {citizen} permanent resident {permanentResident} foreigner {foreigner}}</span>
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-187. ### How do you report missing translations?
-     By default, When translation is missing, it generates a warning message such as "Missing translation for message 'somekey'". But you can configure with a different level of message in Angular compiler as below,
-     1. **Error:** It throws an error. If you are using AOT compilation, the build will fail. But if you are using JIT compilation, the app will fail to load.
-     2. **Warning (default):** It shows a 'Missing translation' warning in the console or shell.
-     3. **Ignore:** It doesn't do anything.
-
-     If you use AOT compiler then you need to perform changes in `configurations` section of your Angular CLI configuration file, angular.json.
-     ```javascript
-     "configurations": {
-       ...
-       "de": {
-         ...
-         "i18nMissingTranslation": "error"
-       }
-     }
-     ```
-     If you use the JIT compiler, specify the warning level in the compiler config at bootstrap by adding the 'MissingTranslationStrategy' property as below,
-     ```javascript
-     import { MissingTranslationStrategy } from '@angular/core';
-     import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-     import { AppModule } from './app/app.module';
-
-     platformBrowserDynamic().bootstrapModule(AppModule, {
-       missingTranslation: MissingTranslationStrategy.Error,
-       providers: [
-         // ...
-       ]
-     });
-     ```
-     **[⬆ Back to Top](#table-of-contents)**
-188. ### How do you provide build configuration for multiple locales?
-     You can provide build configuration such as translation file path, name, format and application url in `configuration` settings of Angular.json file. For example, the German version of your application configured the build as follows,
-     ```javascript
-     "configurations": {
-       "de": {
-         "aot": true,
-         "outputPath": "dist/my-project-de/",
-         "baseHref": "/fr/",
-         "i18nFile": "src/locale/messages.de.xlf",
-         "i18nFormat": "xlf",
-         "i18nLocale": "de",
-         "i18nMissingTranslation": "error",
-       }
-     ```
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-189. ### What is an angular library?
-     An Angular library is an Angular project that differs from an app in that it cannot run on its own. It must be imported and used in an app. For example,  you can import or add `service worker` library to an Angular application which turns an application into a Progressive Web App (PWA).
-
-     **Note:** You can create own third party library and publish it as npm package to be used in an Application.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-190. ### What is AOT compiler?
-     The AOT compiler is part of a build process that produces a small, fast, ready-to-run application package, typically for production. It converts your Angular HTML and TypeScript code into efficient JavaScript code during the build phase before the browser downloads and runs that code.
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -2698,13 +2529,6 @@
 
      **[⬆ Back to Top](#table-of-contents)**
 
-224. ### Give few examples for NgModules?
-     The Angular core libraries and third-party libraries are available as NgModules.
-     1. Angular libraries such as FormsModule, HttpClientModule, and RouterModule are NgModules.
-     2. Many third-party libraries such as Material Design, Ionic, and AngularFire2 are NgModules.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
 225. ### What are feature modules?
      Feature modules are NgModules, which are used for the purpose of organizing code. The feature module can be created with Angular CLI using the below command in the root directory,
      ```javascript
@@ -2893,27 +2717,6 @@
 
 239. ### Can I share services using modules?
      No, it is not recommended to share services by importing module. i.e Import modules when you want to use directives, pipes, and components only. The best approach to get a hold of shared services is through 'Angular dependency injection' because importing a module will result in a new service instance.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
-240. ### How do you get current direction for locales?
-     In Angular 9.1, the API method `getLocaleDirection` can be used to get the current direction in your app. This method is useful to support Right to Left locales for your Internationalization based applications.
-     ```js
-     import { getLocaleDirection, registerLocaleData } from '@angular/common';
-     import { LOCALE_ID } from '@angular/core';
-     import localeAr from '@angular/common/locales/ar';
-
-       ...
-
-       constructor(@Inject(LOCALE_ID) locale) {
-
-         const directionForLocale = getLocaleDirection(locale); // Returns 'rtl' or 'ltr' based on the current locale
-         registerLocaleData(localeAr, 'ar-ae');
-         const direction = getLocaleDirection('ar-ae'); // Returns 'rtl'
-
-         // Current direction is used to provide conditional logic here
-       }
-     ```
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -3733,11 +3536,6 @@
 
      **[⬆ Back to Top](#table-of-contents)**
      
-273. ### What is the benefit of Automatic Inlining of Fonts?
-     During compile time, Angular CLI will download and inline the fonts that your application is using. This performance update speed up the first contentful paint(FCP) and this feature is enabled by default in apps built with version 11.
-
-     **[⬆ Back to Top](#table-of-contents)**
-
 274. ### What is content projection?
      Content projection is a pattern in which you insert, or project, the content you want to use inside another component.
 
